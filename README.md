@@ -1,6 +1,6 @@
 # VetEscape
 
-VetEscape is a public, responsive and installable web app (PWA) helping veterans, service members, and their families find outdoor activities, camping, retreats, and mental-health support. It is a static website: no account is required, and VetEscape does not directly collect form submissions or process payments.
+VetEscape is a public, responsive and installable web app helping veterans, service members, and their families find outdoor activities, camping, retreats, and mental-health support. It is a static website: no account is required, and VetEscape does not directly collect form submissions or process payments.
 
 ## Run locally
 
