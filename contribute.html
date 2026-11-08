@@ -11,83 +11,21 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="launch.css">
   <script src="app.js" defer></script>
+  <script src="launch.js" defer></script>
 </head>
 <body>
   <header class="site-header"><div class="header-inner">
     <a class="brand" href="index.html" aria-label="VetEscape home"><span class="brand-mark" aria-hidden="true">V</span><span>vetescape<span class="brand-period">.</span></span></a>
-    <nav class="main-nav" aria-label="Main navigation">
-      <a href="index.html#explore">Explore</a>
-      <a href="support.html">Support</a>
-      <a href="contribute.html">Contribute</a>
-    </nav>
+    <nav class="main-nav" aria-label="Main navigation"><a href="index.html#explore">Explore</a><a href="support.html">Support</a><a href="contribute.html">Contribute</a></nav>
     <a class="header-help" href="index.html#urgent-help">Need help now? <span aria-hidden="true">↗</span></a>
   </div></header>
-
   <main class="page-shell">
-    <section class="page-hero subpage-hero">
-      <div class="section-wrap narrow-copy">
-        <p class="eyebrow eyebrow-dark">Community-powered</p>
-        <h1>Help us build a better guide for veterans and their families.</h1>
-        <p class="lead">VetEscape is made stronger by people who know the places, programs, and care that help real people feel supported.</p>
-      </div>
-    </section>
-
-    <section class="section-wrap page-section">
-      <div class="two-column-grid">
-        <div>
-          <p class="eyebrow eyebrow-dark">Suggest a resource</p>
-          <h2>Share a place worth knowing.</h2>
-          <p>Use the form below to prepare a public suggestion. It opens a GitHub issue so you can review it before publishing.</p>
-          <ul class="bullet-list">
-            <li>Resources must be credible and independently verifiable.</li>
-            <li>Include location, who it serves, and cost or access notes when available.</li>
-            <li>Never post medical, financial, or identifying information in public submissions.</li>
-          </ul>
-        </div>
-
-        <form class="submission-form" id="resource-form">
-          <p class="form-caption">Resource suggestion</p>
-          <div class="form-row"><label for="submit-name">Program or place name <span aria-hidden="true">*</span></label><input id="submit-name" name="name" required maxlength="100" placeholder="e.g. Community trail program"></div>
-          <div class="form-row"><label for="submit-url">Official website <span aria-hidden="true">*</span></label><input id="submit-url" name="url" type="url" required maxlength="300" placeholder="https://example.org"></div>
-          <div class="form-row"><label for="submit-location">Location or service area</label><input id="submit-location" name="location" maxlength="120" placeholder="City, state, or nationwide"></div>
-          <div class="form-row"><label for="submit-details">What should people know?</label><textarea id="submit-details" name="details" rows="4" maxlength="700" placeholder="Activities, who it serves, cost/accessibility details, and when you checked this information."></textarea></div>
-          <label class="public-notice"><input id="public-confirm" type="checkbox" required><span>I understand this suggestion will be submitted as a public GitHub issue. I won’t include personal, medical, or sensitive information.</span></label>
-          <button class="button button-primary submit-button" type="submit">Review and submit suggestion <span aria-hidden="true">↗</span></button>
-          <p class="form-footnote">This opens GitHub so you can review and submit your suggestion. It is not sent to VetEscape directly. <a href="privacy.html">Privacy details</a></p>
-        </form>
-      </div>
-    </section>
-
-    <section class="section-wrap page-section muted-panel">
-      <p class="eyebrow eyebrow-dark">Code contributions</p>
-      <h2>Help improve the experience.</h2>
-      <div class="stack-grid">
-        <div>
-          <h3>Before you submit</h3>
-          <p>Keep the app mobile-friendly, accessible, and transparent. Avoid adding trackers, collecting sensitive data, or blending paid placement into editorial content.</p>
-        </div>
-        <div>
-          <h3>How to contribute</h3>
-          <p>Open an issue for a bug or feature idea, then submit a pull request with a clear description and a working update. See <a href="CONTRIBUTING.md">CONTRIBUTING.md</a> for the process.</p>
-        </div>
-        <div>
-          <h3>Safety guidelines</h3>
-          <p>Never present outdoor recreation as a replacement for therapy or crisis care. Crisis support remains available at all times, and all content should be reviewed carefully before publishing.</p>
-        </div>
-      </div>
-    </section>
+    <section class="page-hero subpage-hero"><div class="section-wrap narrow-copy"><p class="eyebrow eyebrow-dark">Community-powered</p><h1>Help us build a better guide for veterans and their families.</h1><p class="lead">VetEscape is made stronger by people who know the places, programs, and care that help people feel supported.</p></div></section>
+    <section class="section-wrap page-section"><div class="two-column-grid"><div><p class="eyebrow eyebrow-dark">Suggest a resource</p><h2>Share a place worth knowing.</h2><p>The form prepares a public GitHub issue draft. The information is sent to GitHub to fill the draft; you can review it before publishing. GitHub issues are public.</p><ul class="bullet-list"><li>Use the provider’s official website and include location or service area.</li><li>Describe eligibility, cost, accessibility, and family participation only when you can verify the details.</li><li>Never share medical, financial, contact, or identifying information.</li></ul></div>
+      <form class="submission-form" id="resource-form"><p class="form-caption">Resource suggestion</p><div class="form-row"><label for="submit-name">Program or place name <span aria-hidden="true">*</span></label><input id="submit-name" name="name" required maxlength="100" placeholder="e.g. Community trail program"></div><div class="form-row"><label for="submit-url">Official website <span aria-hidden="true">*</span></label><input id="submit-url" name="url" type="url" required maxlength="300" placeholder="https://example.org"></div><div class="form-row"><label for="submit-location">Location or service area</label><input id="submit-location" name="location" maxlength="120" placeholder="City, state, or nationwide"></div><div class="form-row"><label for="submit-details">What should people know?</label><textarea id="submit-details" name="details" rows="4" maxlength="700" placeholder="Activities, who it serves, cost/accessibility details, and when you checked this information."></textarea></div><label class="public-notice"><input id="public-confirm" type="checkbox" required><span>I understand the fields will be sent to GitHub to prepare a public issue draft. I will review it before publishing and will not include sensitive information.</span></label><button class="button button-primary submit-button" type="submit">Review and submit suggestion <span aria-hidden="true">↗</span></button><p class="form-footnote">This form opens GitHub; VetEscape does not receive the submission. See <a href="privacy.html">Privacy</a> and <a href="terms.html">Terms</a>.</p></form></div></section>
+    <section class="section-wrap page-section muted-panel"><p class="eyebrow eyebrow-dark">Code contributions</p><h2>Help improve the experience.</h2><div class="stack-grid"><div><h3>Build with care</h3><p>Keep the app accessible, mobile-friendly, privacy-preserving, and usable without an account. Document new third-party services and update privacy notices.</p></div><div><h3>How to contribute</h3><p>Open an issue for a bug or feature idea, then submit a pull request with test steps. Read the full <a href="CONTRIBUTING.md">Contributor Guidelines</a>.</p></div><div><h3>Safety and independence</h3><p>Do not present recreation as a replacement for therapy. Disclose financial relationships, and never let sponsorship influence crisis or clinical information.</p></div></div></section>
   </main>
-
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true">V</span><span>vetescape<span class="brand-period">.</span></span></a>
-      <p>A starting point for adventure and support—not professional advice.</p>
-      <a href="support.html">Support</a>
-      <a href="privacy.html">Privacy</a>
-      <span class="copyright">© <span id="year"></span> VetEscape</span>
-    </div>
-  </footer>
-
+  <footer class="site-footer"><div class="footer-inner"><a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true">V</span><span>vetescape<span class="brand-period">.</span></span></a><p>A starting point for adventure and support—not professional advice.</p><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><span class="copyright">© <span id="year"></span> VetEscape</span></div></footer>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 </body>
 </html>
