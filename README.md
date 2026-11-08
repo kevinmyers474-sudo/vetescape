@@ -1,14 +1,14 @@
 # VetEscape
 
-VetEscape is a public, responsive and installable web app helping veterans, service members, and their families find outdoor activities, camping, retreats, and mental-health support. It is currently a static website: no VetEscape account or server-side form processor is used, and the site does not process payments.
+VetEscape is a public, responsive and installable web app helping veterans, service members, and their families find outdoor activities, camping, retreats, and mental-health support. It is currently a static website: no VetEscape account, server-side submission endpoint, analytics, or on-site payment processing is used.
 
 ## Public launch checklist
 
 - Obtain qualified legal review of [Terms of Use](TERMS.md), [Privacy Statement](PRIVACY.md), and [Contributor Guidelines](CONTRIBUTING.md) for the owner's jurisdiction and actual operating model. These drafts are not legal advice or a compliance guarantee.
-- Confirm GitHub Pages settings, public URL, privacy disclosures, external links, and the sponsor profile before launch.
+- Confirm hosting settings, public URL, privacy disclosures, external links, and sponsor profile.
 - Verify every resource, contact method, and emergency statement with authoritative providers.
 - Keep the GitHub issue submission flow free of sensitive information; it opens a public third-party service.
-- Test mobile layout, keyboard access, install prompt, offline behavior, and clear-site-data behavior.
+- Test mobile layout, keyboard access, install prompt, offline behavior, and clearing site data.
 
 ## Run locally
 
@@ -20,17 +20,17 @@ Configure GitHub Pages in **Settings → Pages**, choose **Deploy from a branch*
 
 ## Install on phones
 
-VetEscape is a Progressive Web App. On Android and supported desktop browsers, use **Install app** or the browser's install option. On iPhone or iPad, open the site in Safari, tap **Share**, then **Add to Home Screen**. After a successful visit the app shell can load offline; maps and external resources still need internet. This is a web app, not a native App Store or Google Play app.
+VetEscape is a Progressive Web App. On Android and supported desktop browsers, use **Install app** or the browser's install option. On iPhone or iPad, open the site in Safari, tap **Share**, then **Add to Home Screen**. After a successful visit the app shell can load offline; maps and external resources still require internet. This is a web app, not a native App Store or Google Play app.
 
 ## Policies
 
 - [Terms of Use](TERMS.md) / [web version](terms.html)
 - [Privacy Statement](PRIVACY.md) / [web version](privacy.html)
-- [Contributor Guidelines](CONTRIBUTING.md)
+- [Contributor Guidelines](CONTRIBUTING.md) / [web version](contribute.html)
 - [Support and sponsorship disclosures](support.html)
 
-These are plain-language drafts. They do not replace jurisdiction-specific legal advice. Confirm third-party behavior and update disclosures if hosting, fonts, maps, contribution handling, or payment links change.
+These are plain-language drafts, not legal advice. Confirm actual third-party behavior and update disclosures if hosting, fonts, maps, contribution handling, or payment links change.
 
 ## Safety
 
-VetEscape is a directory, not a medical provider, booking service, or emergency service. Outdoor activities can complement but do not replace professional mental-health care. Verify availability, cost, eligibility, accessibility, and safety details directly with providers. In the U.S., veterans and loved ones can call 988 and press 1 or text 838255; in immediate danger call 911. VetEscape is not affiliated with the U.S. Department of Veterans Affairs.
+VetEscape is a directory, not a medical provider, booking service, or emergency service. Outdoor activities can complement but do not replace professional mental-health care. Verify availability, cost, eligibility, accessibility, and safety details with providers. In the U.S., veterans and loved ones can call 988 and press 1 or text 838255; in immediate danger call 911. VetEscape is not affiliated with the U.S. Department of Veterans Affairs.
