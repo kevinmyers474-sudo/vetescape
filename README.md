@@ -1,31 +1,29 @@
 # VetEscape
 
-VetEscape is a responsive, public-facing guide to outdoor activities and support for U.S. veterans, service members, and their families. Find public lands and camping, adaptive and outdoor adventures, retreats, and trusted mental-health resources. The current version is a static site: it does not create accounts, accept payments, or store visitor data.
+VetEscape is a public, responsive and installable web app (PWA) helping veterans, service members, and their families find outdoor activities, camping, retreats, and mental-health support. It is a static website: no account is required, and VetEscape does not directly collect form submissions or process payments.
 
 ## Run locally
 
-Open `index.html` in a browser, or serve this directory with any static file server. No build steps or package dependencies are required.
+Open `index.html` in a browser or serve the project directory with a static file server. Service workers and installation require HTTPS, except when testing on localhost.
 
-## Publish the site
+## Publish
 
-On GitHub, open **Settings → Pages**, choose **Deploy from a branch**, select `build/veteran-resource-hub` and the repository root, then save. GitHub Pages will provide a public URL to share. For a production launch, merge the implementation into the repository's default branch and publish from that branch.
+Configure GitHub Pages in **Settings → Pages**, choose **Deploy from a branch**, select `build/veteran-resource-hub` and the repository root, then save. For a production launch, merge the reviewed implementation into the repository's default branch and publish from that branch. GitHub Pages will provide the public HTTPS URL.
 
-## Community contributions
+## Install on phones
 
-Visitors can suggest resources in [GitHub Discussions](https://github.com/kevinmyers474-sudo/vetescape/discussions). Developers can report bugs or submit pull requests through the repository. See [CONTRIBUTING.md](CONTRIBUTING.md) for resource-review and safety guidelines. Avoid posting private health or identifying details in public discussions.
+VetEscape is a Progressive Web App. On Android and supported desktop browsers, use **Install app** or the browser's install option. On iPhone or iPad, open the site in Safari, tap **Share**, then **Add to Home Screen**. Once installed, the app shell and resource directory load offline after the first successful visit; external resource websites and map search still require an internet connection. This is a web app, not a native App Store or Google Play app.
 
-## Supporting the project financially
+## Suggest a resource and contribute
 
-A sponsorship link is included for [GitHub Sponsors](https://github.com/sponsors/kevinmyers474-sudo). It will only accept support after the repository owner enables GitHub Sponsors and completes its payout setup. No payment processing or donor information is handled by this site. Other options—such as clearly disclosed sponsorships, grants, or affiliate partnerships—require separate accounts, agreements, and disclosures before adding them.
+The homepage form prepares a public GitHub issue. Review and submit it on GitHub; the form does not send anything to VetEscape directly. Contributor and resource-review practices are described in [CONTRIBUTING.md](CONTRIBUTING.md). Please never share private health, financial, or identifying information in public submissions.
 
-Keep core crisis information and essential veteran resources freely accessible. Clearly label paid placements and affiliate links, do not sell sensitive visitor data, and do not imply that a sponsor endorses a clinical service. Consider getting legal and tax advice before accepting donations or commercial revenue.
+## Optional financial support
 
-## What’s included
+The homepage links to GitHub Sponsors. Support is voluntary and, if enabled, payment is handled by GitHub under its own terms. VetEscape does not process payments or receive donor details through the form. VetEscape is not represented as a nonprofit or tax-exempt charity; contributions are not described as tax-deductible. Sponsorship does not purchase a recommendation or placement. Any future paid placement or affiliate relationship must be clearly disclosed.
 
-- Responsive, accessible one-page design with resource search and interest filters.
-- Location search that opens a third-party map; the entered location is not saved by VetEscape.
-- Links to public lands, camping, adaptive sports, outdoor programs, retreats, VA PTSD and mental-health services, and Vet Centers.
-- Veterans Crisis Line: call 988 and press 1, or text 838255. In immediate danger, call 911.
-- Share controls, keyboard search shortcut (`/`), and reduced-motion support.
+## Privacy and safety
 
-VetEscape does not provide therapy, medical advice, trip booking, or emergency response. Outdoor activities can complement but do not replace professional mental-health care. Verify availability, cost, eligibility, accessibility, and safety details with providers. VetEscape is not affiliated with the U.S. Department of Veterans Affairs.
+Read [PRIVACY.md](PRIVACY.md). The location search opens a third-party map provider, resource suggestions are submitted publicly through GitHub, and sponsorship is handled by GitHub. VetEscape does not currently run its own server, account system, analytics, advertising trackers, or payment processing.
+
+VetEscape is a directory, not a medical provider, booking service, or emergency service. Outdoor activities can complement but do not replace professional mental-health care. Verify availability, cost, eligibility, accessibility, and safety details directly with providers. For crisis support, call 988 and press 1 or text 838255; in immediate danger, call 911. VetEscape is not affiliated with the U.S. Department of Veterans Affairs.
